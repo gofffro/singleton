@@ -24,7 +24,7 @@ namespace singleton
 
     public void SayHello()
     {
-      Console.WriteLine("Привет из Singleton!");
+      Console.WriteLine("123");
     }
   }
 }
