@@ -13,13 +13,13 @@ namespace singleton
 
   public class Singleton
   {
-    private static readonly Singleton instance = new Singleton();
+    private static readonly Singleton _instance = new Singleton();
 
     private Singleton() { }
 
     public static Singleton GetInstance()
     {
-      return instance;
+      return _instance;
     }
 
     public void SayHello()
